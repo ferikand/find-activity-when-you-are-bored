@@ -5,6 +5,12 @@ body {
   font-family: Oxygen, sans-serif;
 }
 
+.container {
+  width: 50vw;
+
+  margin: 0 auto;
+}
+
 button {
   width: 10rem;
   height: 10rem;
