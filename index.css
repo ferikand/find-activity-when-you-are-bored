@@ -3,6 +3,11 @@ body {
   background-color: aquamarine;
 
   font-family: Oxygen, sans-serif;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
