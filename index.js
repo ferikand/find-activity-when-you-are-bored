@@ -12,10 +12,11 @@ Challenge:
 
 const placeholer = document.querySelector("h4");
 
-document.getElementById("get-activity").addEventListener("click", () =>
+document.getElementById("get-activity").addEventListener("click", () => {
   fetch("https://apis.scrimba.com/bored/api/activity")
     .then((resp) => resp.json())
     .then((data) => {
       placeholer.textContent = data.activity;
-    })
-);
+    });
+  placeholer.style.fontSize = "1.5rem";
+});
