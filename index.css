@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background-color: aquamarine;
+
+  font-family: Oxygen, sans-serif;
+}
+
+button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
